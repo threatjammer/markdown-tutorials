@@ -7,7 +7,7 @@ updated: '2021-01-20'
 readTime: 2
 navigation:
   github: https://github.com/threatjammer/markdown-tutorials/blob/main/how-to-configure-fail2ban-in-ubuntu.md
-  home: /tutorials/index
+  home: /tutorials/main
   previous: 
   next: 
 authors:

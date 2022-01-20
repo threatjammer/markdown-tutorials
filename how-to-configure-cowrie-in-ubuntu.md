@@ -7,7 +7,7 @@ updated: '2021-01-21'
 readTime: 2
 navigation:
   github: https://github.com/threatjammer/markdown-tutorials/blob/main/how-to-configure-cowrie-in-ubuntu.md
-  home: /tutorials/index
+  home: /tutorials/main
   previous: 
   next: 
 authors:
