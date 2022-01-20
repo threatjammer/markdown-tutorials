@@ -2,8 +2,8 @@
 title: 'How to configure Cowrie in Ubuntu 20.04 with Threat Jammer'
 excerpt: 'Cowrie is a honeypot designed to log brute force attacks and the shell interaction performed by the attacker. This article explains how to configure Cowrie with Threat Jammer in Ubuntu 20.04.'
 coverImage: '/tutorialsimg/cowrie-threatjammer-logo.png'
-created: '2021-01-20'
-updated: '2021-01-20'
+created: '2021-01-21'
+updated: '2021-01-21'
 readTime: 2
 navigation:
   github: https://github.com/threatjammer/markdown-tutorials/blob/main/how-to-configure-cowrie-in-ubuntu.md

@@ -41,7 +41,6 @@ Once the installation is over, the Fail2ban service will start automatically. Yo
 ```bash
 sudo systemctl status fail2ban
 ```
-Copy
 
 The output will look like this:
 

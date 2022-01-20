@@ -11,6 +11,7 @@ This repo is a collection of markdown files that are used to generate the user a
 Each file in this repo is a markdown file with the following structure:
 - `metadata`: contains the information about the file, such as the title, description, author, etc. It also contains the different paths y `slugs` that are used to generate the page and connect to other content.
 - `content`: contains the actual content of the file.
+- Reference to an image file of PNG format and 800x400 pixels.
 
 ### Metadata
 It should follow the following structure:
@@ -18,7 +19,7 @@ It should follow the following structure:
 ---
 title: TITLE OF THE PAGE (MANDATORY)
 excerpt: SHORT DESCRIPTION OF THE PAGE (MANDATORY)
-coverImage: URL OF THE COVER IMAGE (OPTIONAL)
+coverImage: URL OF THE COVER IMAGE
 created: DATE OF CREATION (MANDATORY)
 updated: DATE OF UPDATION (MANDATORY)
 navigation:
