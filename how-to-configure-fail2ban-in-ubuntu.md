@@ -136,7 +136,7 @@ fail2ban-client get sshd action threatjammer actionban
 it should show the full command. The API KEY has been redacted.
 
 ```
-curl -X 'POST' http://paris.report.threatjammer.com/v1/ip -H 'accept: application/json' -H 'Authorization: Bearer YOUR_API_KEY' -H 'Content-Type: application/json' -d '{ "addresses": [ "<ip>" ], "ttl": 86400, "type": "ABUSE", "tags": ["FAIL2BAN"] }'
+curl -X 'POST' http://dublin.report.threatjammer.com/v1/ip -H 'accept: application/json' -H 'Authorization: Bearer YOUR_API_KEY' -H 'Content-Type: application/json' -d '{ "addresses": [ "<ip>" ], "ttl": 86400, "type": "ABUSE", "tags": ["FAIL2BAN"] }'
 ```
 
 To display the `unban` command, type:
@@ -149,7 +149,7 @@ fail2ban-client get sshd action threatjammer actionunban
 
 The User API can be used to view banned IPs, update the TTL, and remove the ban. To use it, you need to sign up for an account at [Threat Jammer](https://threatjammer.com/) for free. Once you have an account, you will obtain an API Key. See how to manage the API Key in the [Threat Jammer documentation](/docs/threat-jammer-api-keys).
 
-The different endpoints to manage the reported IP addresses are in the [Denylist data query and management](https://paris.api.threatjammer.com/docs#/Denylist%20data%20query%20and%20management) section of the API documentation.
+The different endpoints to manage the reported IP addresses are in the [Denylist data query and management](https://dublin.api.threatjammer.com/docs#/Denylist%20data%20query%20and%20management) section of the API documentation.
 
 To view all the banned (or reported, using the Report API nomenclature) IP addresses, you can use the following command:
 
@@ -192,9 +192,9 @@ the ouput is a JSON object with the following structure:
 }
 ```
 
-You can learn about the JSON object fields in the [endpoint definition](https://paris.api.threatjammer.com/docs#/Denylist%20data%20query%20and%20management/query_all_the_ip_addresses_reported_by_the_user_v1_denylist_reported_ip_get). This endpoint has different filtering capabilities and can export the information in JSON, CSV and [AWS-WAF format](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/wafv2/get-ip-set.html).
+You can learn about the JSON object fields in the [endpoint definition](https://dublin.api.threatjammer.com/docs#/Denylist%20data%20query%20and%20management/query_all_the_ip_addresses_reported_by_the_user_v1_denylist_reported_ip_get). This endpoint has different filtering capabilities and can export the information in JSON, CSV and [AWS-WAF format](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/wafv2/get-ip-set.html).
 
-If you want delete all the reported IP addresses, you can use the following command as described in the [Delete all](https://paris.api.threatjammer.com/docs#/Denylist%20data%20query%20and%20management/delete_all_ip_addresses_reported_by_the_user_v1_denylist_reported_ip_all_delete) endpoint of the API documentation:
+If you want delete all the reported IP addresses, you can use the following command as described in the [Delete all](https://dublin.api.threatjammer.com/docs#/Denylist%20data%20query%20and%20management/delete_all_ip_addresses_reported_by_the_user_v1_denylist_reported_ip_all_delete) endpoint of the API documentation:
 
 ```bash
 curl -X 'DELETE' \
