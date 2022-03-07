@@ -136,7 +136,7 @@ fail2ban-client get sshd action threatjammer actionban
 it should show the full command. The API KEY has been redacted.
 
 ```
-curl -X 'POST' http://dublin.report.threatjammer.com/v1/ip -H 'accept: application/json' -H 'Authorization: Bearer YOUR_API_KEY' -H 'Content-Type: application/json' -d '{ "addresses": [ "<ip>" ], "ttl": 86400, "type": "ABUSE", "tags": ["FAIL2BAN"] }'
+curl -X 'POST' https://dublin.report.threatjammer.com/v1/ip -H 'accept: application/json' -H 'Authorization: Bearer YOUR_API_KEY' -H 'Content-Type: application/json' -d '{ "addresses": [ "<ip>" ], "ttl": 86400, "type": "ABUSE", "tags": ["FAIL2BAN"] }'
 ```
 
 To display the `unban` command, type:
