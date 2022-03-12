@@ -1,6 +1,6 @@
 ---
-title: 'How to detect if a user comes from a Datacenter with Threat Jammer'
-excerpt: 'A good way to detect if an actor can be malicious is to check if the user comes from a Datacenter with Threat Jammer.'
+title: 'How to detect if a user comes from a Datacenter'
+excerpt: 'A good way to detect if an actor can be malicious is to check if the user's IP address comes from a Datacenter with Threat Jammer.'
 coverImage: '/tutorialsimg/detect-datacenter-ip-address.png'
 created: '2022-03-21'
 updated: '2022-03-21'
@@ -37,7 +37,7 @@ Detecting whether an IP address belongs to a data center, there are usually thre
 
 ## User API endpoints
 
-> ** You need an API Key to access the endpoints. Sign up for free at [Threat Jammer](https://threatjammer.com) and get your API Key.**
+> **You need an API Key to access the endpoints. Sign up for free at [Threat Jammer](https://threatjammer.com) and get your API Key.**
 
 Thanks to the [User API](https://dublin.api.threatjammer.com/docs), there are two ways to detect if a user comes from a Datacenter with Threat Jammer:
 
