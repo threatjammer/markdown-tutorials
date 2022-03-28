@@ -2,8 +2,8 @@
 title: 'How to detect if a user comes from a Datacenter'
 excerpt: 'A good way to detect if an actor can be malicious is to check if the user´s IP address comes from a Datacenter with Threat Jammer.'
 coverImage: '/tutorialsimg/detect-datacenter-ip-address.png'
-created: '2022-03-21'
-updated: '2022-03-21'
+created: '2022-03-28'
+updated: '2022-03-28'
 readTime: 2
 navigation:
   github: https://github.com/threatjammer/markdown-tutorials/blob/main/how-detect-user-comes-datacenter.md
@@ -29,11 +29,11 @@ When a server responds to a request from users' devices or connects to another s
 
 Detecting whether an IP address belongs to a data center, there are usually three options:
 
-1. Use an OSINT dataset with the IP address ranges of datacenters. A good example was [IPCAT](https://github.com/client9/ipcat/), but sadly it is not updated often (last time was in 2019).
-2. Use lists of residential and mobile IP address ranges. If the IP address of your user is in one of these ranges, it is likely that the user is not from a data center. This is not a perfect solution and it is not the best way to detect if the user comes from a data center because the chances of false positives are higher.
-3. Use a CSINT dataset with the IP address ranges of datacenters. This is the best solution because it is updated on a daily basis and it is the most accurate way to avoid false positives.
+1. Use an OSINT dataset with the IP address ranges of datacenters. A good example was [IPCAT](https://github.com/client9/ipcat/), but sadly it is not updated often (the last time was in 2019).
+2. Use lists of residential and mobile IP address ranges. If the IP address of your user is in one of these ranges, likely, the user is not from a data center. This is not a perfect solution, and it is not the best way to detect if the user comes from a data center because the chances of false positives are higher.
+3. Use a CSINT dataset with the IP address ranges of datacenters. It is the best solution because the source updates daily, and it is the most accurate way to avoid false positives.
 
-**[Threat Jammer](https://threatjammer.com) follows the CSINT approach, building our own dataset from different sources.**
+**[Threat Jammer](https://threatjammer.com) follows the CSINT approach, building our dataset from different sources.**
 
 ## User API endpoints
 
@@ -77,7 +77,7 @@ Response:
 
 The `datacenter` field of the JSON response contains the URI of the datacenter that hosts the IP address. This field will be empty if the IP address is not in a data center.
 
-> **It's also possible to [search for the IP address in the Threat Jammer site](https://threatjammer.com/info/20.36.32.1), or use the [Testing site of the User API](https://dublin.api.threatjammer.com/docs#/Data%20assesment/assess_ip_v1_assess_ip__ip_address__get).**
+> **It's also possible to [search for the IP address in the Threat Jammer site](https://threatjammer.com/info/20.36.32.1) or use the [Testing site of the User API](https://dublin.api.threatjammer.com/docs#/Data%20assesment/assess_ip_v1_assess_ip__ip_address__get).**
 
 
 ### Option 2: Using the datacenter endpoint
@@ -125,7 +125,7 @@ A request to the endpoint with an IP address not in any datacenter will [return 
 
 ## What's next?
 
-Knowing if a user's IP address belongs to a datacenter and to which one can be very relevant in order to detect a rogue actor trying to abuse your online platform. If you want to keep learning, [read our documentatio](https://threatjammer.com/docs/index) and particularly [check out the possibilities of our API](https://dublin.api.threatjammer.com/docs).
+Figuring out if a user's IP address belongs to a data center and which one can be very relevant to detecting a rogue actor trying to abuse your online platform. If you want to keep learning, [read our documentation](https://threatjammer.com/docs/index) and mainly [check out the possibilities of our API](https://dublin.api.threatjammer.com/docs).
 
 
-*If you need help you can try first in our [community site](/community), or our [support services](/support)*
+*If you need help, you can try first in our [community site](/community) or our [support services](/support)*
