@@ -1,6 +1,6 @@
 ---
 title: 'How to detect if a user comes from a Datacenter'
-excerpt: 'A good way to detect if an actor can be malicious is to check if the user´s IP address comes from a Datacenter with Threat Jammer.'
+excerpt: 'An excellent way to detect if an actor can be malicious is to check if the user´s IP address comes from a Datacenter with Threat Jammer.'
 coverImage: '/tutorialsimg/detect-datacenter-ip-address.png'
 created: '2022-03-28'
 updated: '2022-03-28'
@@ -108,9 +108,9 @@ Response:
 ```
 
 The JSON object contains not only information about the data center but also information about the entire prefix the IP address belongs to and information relevant to the risk score:
-- The number of IP addresses with a risk score higher than 0.
+- The number of IP addresses with a risk score greater than 0.
 - The maximum risk score of the prefix.
-- The minimum risk score of the prefix (of the IP addresses with a score higher than 0).
+- The minimum risk score of the prefix (of the IP addresses with a score greater than 0).
 - The average risk score of the prefix.
 
 A request to the endpoint with an IP address not in any datacenter will [return a 404 error and a JSON object](https://threatjammer.com/docs/error-resource-not-found) with the following fields:
