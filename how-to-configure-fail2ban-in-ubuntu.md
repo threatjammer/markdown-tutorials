@@ -2,7 +2,7 @@
 title: 'How to configure Fail2Ban in Ubuntu 20.04 with Threat Jammer'
 excerpt: 'Fail2Ban is a security system that helps protect your server from malicious attacks. This article explains how to configure Fail2Ban with Threat Jammer in Ubuntu 20.04.'
 coverImage: '/tutorialsimg/fail2ban-threatjammer-logo.png'
-created: '2021-01-20'
+created: '2021-04-04'
 updated: '2021-04-04'
 readTime: 2
 navigation:
