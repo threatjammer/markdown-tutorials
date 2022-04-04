@@ -5,6 +5,7 @@ coverImage: '/tutorialsimg/detect-datacenter-ip-address.png'
 created: '2022-03-28'
 updated: '2022-03-28'
 readTime: 2
+version: '1.0.0'
 navigation:
   github: https://github.com/threatjammer/markdown-tutorials/blob/main/how-detect-user-comes-datacenter.md
   home: /tutorials/main
