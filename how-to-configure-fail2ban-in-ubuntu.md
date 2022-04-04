@@ -5,6 +5,7 @@ coverImage: '/tutorialsimg/fail2ban-threatjammer-logo.png'
 created: '2022-04-04'
 updated: '2022-04-04'
 readTime: 2
+version: '1.0.0'
 navigation:
   github: https://github.com/threatjammer/markdown-tutorials/blob/main/how-to-configure-fail2ban-in-ubuntu.md
   home: /tutorials/main
