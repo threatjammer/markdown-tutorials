@@ -19,7 +19,7 @@ ogImage:
 
 ## What is Fail2Ban?
 
-[Fail2Ban](https://www.fail2ban.org) is an intrusion prevention software framework that protects computer servers from brute-force attacks. Fail2Ban operates by monitoring log files (e.g. `/var/log/auth.log`, `/var/log/apache/access.log`, etc.) for selected entries and running scripts based on them.[5] Most commonly, it blocks selected IP addresses that may belong to hosts trying to breach the system's security. It can ban any host IP address that makes too many login attempts or performs any other unwanted action within a time frame defined by the administrator. 
+[Fail2Ban](https://www.fail2ban.org) is an intrusion prevention software framework that protects computer servers from brute-force attacks. Fail2Ban operates by monitoring log files (e.g. `/var/log/auth.log`, `/var/log/apache/access.log`, etc.) for selected entries and running scripts based on them. Most commonly, it blocks selected IP addresses that may belong to hosts trying to breach the system's security. It can ban any host IP address that makes too many login attempts or performs any other unwanted action within a time frame defined by the administrator. 
 
 A Fail2Ban typical setup also unbans a blocked host within a certain period to not "lockout" any genuine connections banned by mistake or too rigorous rules. Fail2Ban extensions can run custom `actions` when triggered by a ban or unban. These custom actions can contact a third-party software to notify the blocked IP address. 
 
