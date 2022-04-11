@@ -32,9 +32,9 @@ But sometimes, this is not what happens, and the network service provider does n
 
 | Risk Score | Description |
 | ---------- | ----------- |
-| 0 - 33     | Low risk    |
-| 34 - 66    | Medium risk |
-| 67 - 100   | High risk   |
+| 0 - 34     | Low risk    |
+| 35 - 68    | Medium risk |
+| 69 - 100   | High risk   |
 
 If you are familiar with our website, each risk score also has a color associated with it:
 
