@@ -40,9 +40,9 @@ If you are familiar with our website, each risk score also has a color associate
 
 | Risk Score | Color |
 | ---------- | ----- |
-| 0 - 33     | Green |
-| 34 - 66    | Yellow |
-| 67 - 100   | Red |
+| 0 - 34     | Green |
+| 35 - 68    | Yellow |
+| 69 - 100   | Red |
 
 For the Autonomous Systems and Datacenters, Threat Jammer calculates the score as follows:
 - Overall risk score for the Autonomous System or Datacenter, and
