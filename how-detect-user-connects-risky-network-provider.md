@@ -62,7 +62,7 @@ Thanks to the [User API](https://dublin.api.threatjammer.com/docs), there are se
 
 The assessment endpoint returns a **risk or confidence score for the user's IP address**. The score follows a [multi-factor approach](https://threatjammer.com/docs/how-threat-jammer-works). Several factors are if the IP address belongs to a risky Autonomous System or Datacenter or the prefix subnets of an Autonomous Systems or Datacenters. The score will be the highest value of the four (AS risk, Datacenter risk, AS prefix risk, Datacenter prefix risk).
 
-You can use the following `curl` from the command line to get the risk score of a user's IP address. In this example, we will use a random IP address of Microsoft Azure:
+You can use the following `curl` from the command line to get the risk score of a user's IP address. In this example, we will use an IP address of an Autonomous System with a high risk score:
 
 ```
 curl -X 'GET' \
