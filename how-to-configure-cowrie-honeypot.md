@@ -2,8 +2,8 @@
 title: 'How to configure Cowrie Honeypot with Threat Jammer'
 excerpt: 'Cowrie is a honeypot designed to log brute force attacks and the shell interaction performed by the attacker. This article explains how to configure Cowrie with Threat Jammer.'
 coverImage: '/tutorialsimg/cowrie-threatjammer-logo.png'
-created: '2021-05-02'
-updated: '2021-05-02'
+created: '2022-05-02'
+updated: '2022-05-02'
 readTime: 2
 version: '1.0.0'
 navigation:
