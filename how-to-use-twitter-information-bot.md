@@ -1,7 +1,7 @@
 ---
 title: 'How to use the Threat Jammer Twitter information bot'
 excerpt: 'This article explains how to use the Twitter information bot to share IP address assessment details in a conversation.'
-coverImage: '/tutorialsimg/cowrie-threatjammer-logo.png'
+coverImage: '/tutorialsimg/twitter-threatjammer-logo.png'
 created: '2022-05-24'
 updated: '2022-05-24'
 readTime: 2
