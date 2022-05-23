@@ -2,8 +2,8 @@
 title: 'How to use the Threat Jammer Twitter information bot'
 excerpt: 'This article explains how to use the Twitter information bot to share IP address assessment details in a conversation.'
 coverImage: '/tutorialsimg/twitter-threatjammer-logo.png'
-created: '2022-05-24'
-updated: '2022-05-24'
+created: '2022-05-23'
+updated: '2022-05-23'
 readTime: 2
 version: '1.0.0'
 navigation:
@@ -18,13 +18,11 @@ ogImage:
   url: ''
 ---
 
-Twitter is an impressive social network that allows users to share information and interact with each other. It comes as no surprise it's an excellent tool to engage with other cyber security professionals and researchers and share information about the latest cyber security trends. But it's also a tool that can help discuss specific security threads with other users.
-
 ## Sharing Threat Jammer assessment results in Twitter
 
-If a user wants to share information about a specific IP address, users can use two different ways to do it:
+Twitter is an impressive social network that allows users to share information and interact with other users worldwide. It's an excellent tool to engage with other cyber security professionals and researchers and share information about the latest cyber security trends. But it's also a tool that can help discuss specific security threads with other users. If a user wants to share information about a specific IP address, users can use two different ways to do it. And they even need to be Threat Jammer users!
 
-### Post a link of the Threat Jammer assessment results
+## Post a link of the Threat Jammer assessment results
 
 Sharing the Threat Jammer assessment results on several social networks is possible by posting a link. That is the simplest way, and it's not unique to Twitter, but it's also available on other social networks:
 
@@ -41,7 +39,7 @@ Any button will open the social network selected and embed the link to the Threa
 
 Same will happen with other social networks.
 
-### Ask the Twitter Threat Jammer bot to share the assessment results
+## Ask the Twitter Threat Jammer bot to share the assessment results
 
 The Twitter Threat Jammer bot allows users to share the Threat Jammer assessment results in a conversation. The bot does not require any special permissions to use it, and it's available to any user who has a Twitter account, no matter if they are Threat Jammer users. Also, it's not necessary to follow the bot account [```@threatjammerbot```](https://twitter.com/threatjammerbot).
 
