@@ -29,10 +29,6 @@ This short tutorial will show you how to set up a Slack channel to receive immed
 
 In this tutorial we will show how to modify any kind of Linux server to receive Slack notifications of SSH logins with the Threat Jammer risk score. Before we start we need to prepare the server and Slack.
 
-### Create a Threat Jammer account and obtain a API Key
-
-This tutorial will show how to modify any Linux server to receive Slack notifications of SSH logins with the Threat Jammer risk score. Before we start, we need to prepare the server and Slack.
-
 ### Create a Threat Jammer account and obtain an API Key
 
 The current version of Threat Jammer supports only one API key per user in the only existing region in [Dublin](https://dublin.api.threatjammer.com). When a user register in Threat Jammer, he will automatically receive an *API Key*. The Threat Jammer site has a page with all the information about the *API Keys*:
