@@ -31,7 +31,7 @@ In this tutorial we will show how to modify any kind of Linux server to receive 
 
 ### Create a Threat Jammer account and obtain an API Key
 
-The current version of Threat Jammer supports only one API key per user in the only existing region in [Dublin](https://dublin.api.threatjammer.com). When a user register in Threat Jammer, he will automatically receive an *API Key*. The Threat Jammer site has a page with all the information about the *API Keys*:
+The current version of Threat Jammer supports only one API key per user in the only existing region in [Dublin](https://dublin.api.threatjammer.com/docs). When a user register in Threat Jammer, he will automatically receive an *API Key*. The Threat Jammer site has a page with all the information about the *API Keys*:
 
 > [`https://threatjammer.com/keys`](https://threatjammer.com/keys)
 
