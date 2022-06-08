@@ -3,7 +3,7 @@ title: 'How to send SSH login notifications to Slack with the risk score'
 excerpt: 'This article explains how to set up your servers to send the risk score to a Slack channel with an SSH login.'
 coverImage: '/tutorialsimg/ssh-threatjammer-logo.png'
 created: '2022-06-01'
-updated: '2022-06-01'
+updated: '2022-06-08'
 readTime: 2
 version: '1.0.0'
 navigation:
@@ -146,6 +146,6 @@ This script is only an example of how simple integration of Threat Jammer API wi
 
 If you want to keep learning, [read our documentation](https://threatjammer.com/docs/index) and mainly [check out the possibilities of our API](https://dublin.api.threatjammer.com/docs).
 
-*If you need help you can try first in our [community site](/community), or our [support services](/support)*
+*If you need help you can try first in our [community site](/community), or our  support services.*
 
 <a href="https://www.flaticon.es/iconos-gratis/ssh" title="ssh iconos">Ssh iconos creados por Freepik - Flaticon</a>

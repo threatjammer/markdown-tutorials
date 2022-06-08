@@ -3,7 +3,7 @@ title: 'How to detect if a user connects from a risky network provider'
 excerpt: 'Some network providers are lousy at dealing with malicious actors on their network or data centers, but with Threat Jammer you can find out how prone an Autonomous System is to host them.'
 coverImage: '/tutorialsimg/detect-risky-network-provider.png'
 created: '2022-04-11'
-updated: '2022-04-11'
+updated: '2022-06-08'
 readTime: 2
 version: '1.0.0'
 navigation:
@@ -149,5 +149,5 @@ Obtaining the risk score of the network provider is a great way to get an idea o
 If you want to keep learning, [read our documentation](https://threatjammer.com/docs/index) and mainly [check out the possibilities of our API](https://dublin.api.threatjammer.com/docs).
 
 
-*If you need help, you can try first in our [community site](/community) or our [support services](/support)*
+*If you need help, you can try first in our [community site](/community) or our  support services.*
 

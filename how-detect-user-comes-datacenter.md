@@ -3,7 +3,7 @@ title: 'How to detect if a user comes from a Datacenter'
 excerpt: 'An excellent way to detect if an actor can be malicious is to check if the user´s IP address comes from a Datacenter with Threat Jammer.'
 coverImage: '/tutorialsimg/detect-datacenter-ip-address.png'
 created: '2022-03-28'
-updated: '2022-03-28'
+updated: '2022-06-08'
 readTime: 2
 version: '1.0.0'
 navigation:
@@ -129,4 +129,4 @@ A request to the endpoint with an IP address not in any datacenter will [return 
 Figuring out if a user's IP address belongs to a data center and which one can be very relevant to detecting a rogue actor trying to abuse your online platform. If you want to keep learning, [read our documentation](https://threatjammer.com/docs/index) and mainly [check out the possibilities of our API](https://dublin.api.threatjammer.com/docs).
 
 
-*If you need help, you can try first in our [community site](/community) or our [support services](/support)*
+*If you need help, you can try first in our [community site](/community) or our  support services.*
