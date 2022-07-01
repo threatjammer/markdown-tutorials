@@ -3,7 +3,7 @@ title: 'How to detect if a user connects from a risky network provider'
 excerpt: 'Some network providers are lousy at dealing with malicious actors on their network or data centers, but with Threat Jammer you can find out how prone an Autonomous System is to host them.'
 coverImage: '/tutorialsimg/detect-risky-network-provider.png'
 created: '2022-04-11'
-updated: '2022-06-08'
+updated: '2022-07-01'
 readTime: 2
 version: '1.0.0'
 navigation:
@@ -66,7 +66,7 @@ You can use the following `curl` from the command line to get the risk score of 
 
 ```
 curl -X 'GET' \
-  'https://dublin.api.threatjammer.com/v1/asses/ip/2.58.149.174' \
+  'https://dublin.api.threatjammer.com/v1/assess/ip/2.58.149.174' \
   -H 'accept: application/json' \
   -H 'Authorization: Bearer YOUR_API_KEY'
 ```

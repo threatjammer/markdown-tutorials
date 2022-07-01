@@ -3,7 +3,7 @@ title: 'How to detect if a user comes from a Datacenter'
 excerpt: 'An excellent way to detect if an actor can be malicious is to check if the user´s IP address comes from a Datacenter with Threat Jammer.'
 coverImage: '/tutorialsimg/detect-datacenter-ip-address.png'
 created: '2022-03-28'
-updated: '2022-06-08'
+updated: '2022-07-01'
 readTime: 2
 version: '1.0.0'
 navigation:
@@ -50,7 +50,7 @@ You can use the following `curl` from the command line to get the risk score of 
 
 ```
 curl -X 'GET' \
-  'https://dublin.api.threatjammer.com/v1/asses/ip/20.36.32.1' \
+  'https://dublin.api.threatjammer.com/v1/assess/ip/20.36.32.1' \
   -H 'accept: application/json' \
   -H 'Authorization: Bearer YOUR_API_KEY'
 ```
